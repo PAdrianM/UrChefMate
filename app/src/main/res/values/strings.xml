@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">UrChefMate</string>
+
+
+    <!--  Login Chef Mate  -->
+
+    <string name="acronym_title_app">UCM</string>
+    <string name="title_app">Ur ChefMate</string>
+    <string name="login_title">Ingresar</string>
+    <string name="warning">Correo o contraseña incorrectos</string>
+    <string name="email_field">Correo Electronico</string>
+    <string name="password_field">Contraseña</string>
+
+    <!--  Home Chef Mate  -->
+
+    <string name="title_home">Crea tus propias recetas, \ncocina en casa</string>
+    <string name="find_ur_recipes">Encuentra tus recetas</string>
+    <string name="empty_state">Empieza por agregar una nueva receta</string>
+    <string name="preparation_time">Tiempo de preparacion: %d minutos</string>
+    <string name="accept_alert_dialog">Aplicar</string>
+    <string name="cancel_alert_dialog">Cancelar</string>
+    <string name="order_by_time">Ordenar por tiempo (menor a mayor)</string>
+    <string name="order_by_favorite">Mostrar solo favoritos</string>
+    <string name="filter_recipe_dialog_title">Filtrar Recetas</string>
+
+    <!--  Favorites Chef Mate  -->
+
+<!--    <string name="find_ur_recipes">Encuentra tus recetas</string>-->
+
+    <!--  RecipeScreen Chef Mate  -->
+    <string name="title_recipe">Receta</string>
+    <string name="message_charging_recipe">Cargando receta...</string>
+    <string name="title_category_recipe">Categoria</string>
+    <string name="title_time_recipe">Tiempo</string>
+    <string name="description_title">Descripcion</string>
+
+
+    <!--  Create recipe Chef Mate  -->
+    <string name="top_bar_title">Crear Receta</string>
+    <string name="recipe_title">Titulo de la receta</string>
+    <string name="select_category">Selecciona una Categoría</string>
+    <string name="time_preparation">Tiempo de coccion (minutos)</string>
+    <string name="description_recipe">Descripcion de la receta</string>
+    <string name="save_recipe">Guardar receta</string>
+
+    <!--  Profile recipe Chef Mate  -->
+    <string name="close_session">Cerrar sesión</string>
+    <string name="not_password">********</string>
+    <string name="namre_profile">Nombre</string>
+    <string name="email_profile">Correo electrónico</string>
+    <string name="password_profile">Contraseña</string>
+
+
+
+
+</resources>
