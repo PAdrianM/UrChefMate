@@ -1,94 +1,94 @@
 # UrChefMate 🍳
 
-UrChefMate es una aplicación móvil diseñada para ayudarte a gestionar y descubrir recetas de cocina. Con una interfaz intuitiva, puedes explorar recetas, guardar tus favoritas, crear nuevas recetas y gestionar tu perfil de usuario.
-
-## **Características principales**
-
-- **Inicio de sesión**: Accede a tu cuenta con tu correo electrónico y contraseña.
-- **Pantalla de inicio**: Explora recetas organizadas por categorías.
-- **Favoritos**: Guarda tus recetas favoritas para acceder a ellas rápidamente.
-- **Vista de receta**: Detalles completos de cada receta, incluyendo ingredientes y pasos de preparación.
-- **Agregar recetas**: Crea y guarda nuevas recetas con imágenes, categorías y tiempos de cocción.
-- **Perfil de usuario**: Visualiza y edita tu información personal, incluyendo nombre, correo electrónico y contraseña.
+**UrChefMate** is a mobile application designed to help you manage and discover cooking recipes. With an intuitive interface, you can explore recipes, save your favorites, create new ones, and manage your user profile.
 
 ---
 
-## **Capturas de pantalla**
+## **Main Features**
 
-### **Inicio de sesión**
+- **Login**: Access your account using your email and password.  
+- **Home Screen**: Explore recipes organized by categories.  
+- **Favorites**: Save your favorite recipes for quick access.  
+- **Recipe View**: Full details of each recipe, including ingredients and preparation steps.  
+- **Add Recipe**: Create and save new recipes with images, categories, and cooking times.  
+- **User Profile**: View and edit your personal information, including name, email, and password.
+
+---
+
+## **Screenshots**
+
+### **Login Screen**
 ![Login Screen](https://github.com/user-attachments/assets/9c359de8-f185-4cc5-b277-3990ebdb4e42)
 
-### **Pantalla de inicio**
-![Home Screen 1](https://github.com/user-attachments/assets/9d5d241f-9e79-43b1-884c-2f4fa6ab7f2d)
-
+### **Home Screen**
+![Home Screen 1](https://github.com/user-attachments/assets/9d5d241f-9e79-43b1-884c-2f4fa6ab7f2d)  
 ![Home Screen 2](https://github.com/user-attachments/assets/86d1d002-8a98-409e-964c-c74bc489e5a1)
 
-### **Favoritos**
-![Favorites Screen 1](https://github.com/user-attachments/assets/c3f5937b-ff50-495f-8712-9e8d8f9b2f95)
-
+### **Favorites**
+![Favorites Screen 1](https://github.com/user-attachments/assets/c3f5937b-ff50-495f-8712-9e8d8f9b2f95)  
 ![Favorites Screen 2](https://github.com/user-attachments/assets/5f8476b6-3f11-47d7-be89-be6b590c4c96)
 
-### **Vista de receta**
+### **Recipe View**
 ![Recipe Screen](https://github.com/user-attachments/assets/54f8b48f-0db0-4e46-b552-57d60f647abe)
 
-### **Agregar receta**
+### **Add Recipe**
 ![Add Recipe Screen](https://github.com/user-attachments/assets/fc3e38cf-194b-451c-81bd-3299ada7fc5e)
 
-### **Perfil de usuario**
+### **User Profile**
 ![Profile Screen](https://github.com/user-attachments/assets/7b30d223-6be6-4673-b5e2-b2605fe52920)
 
 ---
 
-## **Funcionalidades detalladas**
+## **Detailed Features**
 
-### **1. Inicio de sesión**
-- **Descripción**: Permite a los usuarios iniciar sesión con su correo electrónico y contraseña.
-- **Uso**:
-  - Ingresa tu correo electrónico y contraseña.
-  - Haz clic en "Iniciar sesión" para acceder a la aplicación.
-- **Nota**: Si no tienes una cuenta, puedes usar las credenciales predeterminadas:
-  - Correo: `info@koalit.dev`
-  - Contraseña: `koalit123`
+### **1. Login**
+- **Description**: Allows users to sign in using their email and password.  
+- **How to Use**:
+  - Enter your email and password.
+  - Tap "Sign In" to access the app.
+- **Note**: You can use the following test credentials:
+  - Email: `info@koalit.dev`
+  - Password: `koalit123`
 
-### **2. Pantalla de inicio**
-- **Descripción**: Muestra una lista de recetas organizadas por categorías.
-- **Uso**:
-  - Explora las recetas disponibles.
-  - Haz clic en una receta para ver sus detalles.
+### **2. Home Screen**
+- **Description**: Displays a list of recipes organized by categories.  
+- **How to Use**:
+  - Browse available recipes.
+  - Tap on a recipe to view its details.
 
-### **3. Favoritos**
-- **Descripción**: Permite a los usuarios guardar y acceder a sus recetas favoritas.
-- **Uso**:
-  - En la vista de una receta, haz clic en el ícono de corazón para agregarla a favoritos.
-  - Accede a tus recetas favoritas desde la pestaña "Favoritos".
+### **3. Favorites**
+- **Description**: Allows users to save and access their favorite recipes.  
+- **How to Use**:
+  - Tap the heart icon on a recipe to add it to favorites.
+  - View your saved recipes from the “Favorites” tab.
 
-### **4. Vista de receta**
-- **Descripción**: Muestra los detalles completos de una receta, incluyendo ingredientes, pasos de preparación y tiempo de cocción.
-- **Uso**:
-  - Desde la pantalla de inicio o favoritos, selecciona una receta para ver sus detalles.
+### **4. Recipe View**
+- **Description**: Displays complete recipe details, including ingredients, preparation steps, and cooking time.  
+- **How to Use**:
+  - Select any recipe from the home or favorites screen to view its details.
 
-### **5. Agregar receta**
-- **Descripción**: Permite a los usuarios crear y guardar nuevas recetas.
-- **Uso**:
-  - Ingresa el título, categoría, tiempo de cocción, descripción y una imagen.
-  - Haz clic en "Guardar receta" para agregarla a la lista.
+### **5. Add Recipe**
+- **Description**: Enables users to create and store their own recipes.  
+- **How to Use**:
+  - Enter the title, category, cook time, description, and add an image.
+  - Tap "Save Recipe" to add it to the list.
 
-### **6. Perfil de usuario**
-- **Descripción**: Permite a los usuarios ver y gestionar su información personal.
-- **Uso**:
-  - Visualiza tu nombre, correo electrónico y contraseña.
-  - Haz clic en el ícono de ojo para mostrar/ocultar la contraseña.
-  - Cierra sesión haciendo clic en el botón "Cerrar sesión".
+### **6. User Profile**
+- **Description**: Allows users to view and manage their personal information.  
+- **How to Use**:
+  - View your name, email, and password.
+  - Tap the eye icon to show/hide your password.
+  - Tap "Log out" to sign out of the app.
 
 ---
 
-## **Configuración del proyecto**
+## **Project Setup**
 
-### **Requisitos**
-- Android Studio (Android Studio Koala Feature Drop | 2024.1.2).
-- Dispositivo físico o emulador con Android 8.0 (API 26) o superior.
+### **Requirements**
+- Android Studio (Koala Feature Drop | 2024.1.2).
+- Physical device or emulator running Android 8.0 (API 26) or higher.
 
-### **Instalación**
-1. Clona el repositorio:
+### **Installation**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tu-usuario/urchefmate.git
+   git clone https://github.com/your-username/urchefmate.git
