@@ -50,8 +50,8 @@ fun LoginScreen(
     navigateToHome: (String) -> Unit,
     sessionManager: SessionManager
 ) {
-    var user by remember { mutableStateOf("") }
-    var password by remember { mutableStateOf("") }
+    var user by remember { mutableStateOf("correo@gmail.com") }
+    var password by remember { mutableStateOf("pasword123") }
     var showError by remember { mutableStateOf(false) }
 
     Box(
@@ -84,10 +84,10 @@ fun LoginScreen(
             LoginButton(
                 Modifier.align(Alignment.CenterHorizontally),
                 navigateToHome = {
-                    if (user == "info@koalit.dev" && password == "koalit123") {
+                    if (user == "correo@gmail.com" && password == "pasword123") {
                         showError = false
                         sessionManager.saveUser(user, password)
-                        navigateToHome(user)
+                        navigateToHome("$user")
                     } else {
                         showError = true
                     }
@@ -168,9 +168,10 @@ fun ForgotPassword(modifier: Modifier) {
 @Composable
 fun EmailField(user: String, onUserChange: (String) -> Unit) {
     TextField(
-        value = user, onValueChange = { onUserChange(it) },
+        value = "correo@gmail.com",
+        onValueChange = {  },
         modifier = Modifier.fillMaxWidth(),
-        placeholder = { Text(text = stringResource(id = R.string.email_field)) },
+        placeholder = { Text(text = "correo@gmail.com") },
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
         singleLine = true,
         maxLines = 1,
@@ -197,10 +198,10 @@ fun PassWordField(password: String, onPasswordChange: (String) -> Unit) {
     var passwordVisible by remember { mutableStateOf(false) }
 
     TextField(
-        value = password,
-        onValueChange = { onPasswordChange(it) },
+        value = "pasword123",
+        onValueChange = {  },
         modifier = Modifier.fillMaxWidth(),
-        placeholder = { Text(text = stringResource(id = R.string.password_field)) },
+        placeholder = { Text(text = "pasword123") },
         keyboardOptions = KeyboardOptions(
             keyboardType = if (passwordVisible) KeyboardType.Text else KeyboardType.Password
         ),

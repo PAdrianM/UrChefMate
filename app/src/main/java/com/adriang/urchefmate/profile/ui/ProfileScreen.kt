@@ -77,13 +77,13 @@ fun ProfileScreen(navController: NavController, sessionManager: SessionManager) 
             Spacer(modifier = Modifier.padding(16.dp))
 
 
-            ProfileField(label = stringResource(id = R.string.namre_profile), value = userEmail)
+            ProfileField(label = stringResource(id = R.string.email_profile), value = userEmail)
 
             Spacer(modifier = Modifier.padding(16.dp))
 
 
             PasswordField(
-                label = stringResource(id = R.string.namre_profile),
+                label = stringResource(id = R.string.password_profile),
                 password = userPassword,
                 isPasswordVisible = isPasswordVisible,
                 onToggleVisibility = { isPasswordVisible = !isPasswordVisible }
