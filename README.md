@@ -47,8 +47,8 @@
   - Enter your email and password.
   - Tap "Sign In" to access the app.
 - **Note**: You can use the following test credentials:
-  - Email: `info@koalit.dev`
-  - Password: `koalit123`
+  - Email: `correo@gmail.com`
+  - Password: `pasword123`
 
 ### **2. Home Screen**
 - **Description**: Displays a list of recipes organized by categories.  
